@@ -216,7 +216,6 @@
             <overwrite>true</overwrite>
           </configuration>
         </plugin>
-             <!--
         <plugin>
           <groupId>org.codehaus.cargo</groupId>
           <artifactId>cargo-maven3-plugin</artifactId>
@@ -235,11 +234,10 @@
               </properties>
             </daemon>
           </configuration>
-        </plugin>-->
+        </plugin>
       </plugins>
     </pluginManagement>
     <plugins>
-           <!--
       <plugin>
         <groupId>org.codehaus.cargo</groupId>
         <artifactId>cargo-maven3-plugin</artifactId>
@@ -259,7 +257,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>-->
+      </plugin>
       <plugin>
         <artifactId>maven-failsafe-plugin</artifactId>
         <executions>

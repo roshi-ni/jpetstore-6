@@ -13,8 +13,8 @@ spec:
         app: jpetstore
     spec:
       containers:
-        - name: jpetstore
-          image: adijaiswal/cicddevops:6 # Image that will be used to containers in the cluster
+        - name: freelancer
+          image: roshini10/freelancer:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080 # The port that the container is running on in the cluster
